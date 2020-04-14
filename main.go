@@ -14,4 +14,8 @@ func main() {
 	fmt.Printf("arrays.Permutation    for %q and %q is %v\n", "god", "dog", arrays.Permutation("god", "dog"))
 	fmt.Printf("arrays.Permutation    for %q and %q is %v\n", "neo", "one", arrays.Permutation("neo", "one"))
 	fmt.Printf("arrays.Permutation    for %q and %q is %v\n", "orange", "egnaso", arrays.Permutation("orange", "egnaso"))
+
+	fmt.Printf("arrays.Permutation2   for %q and %q is %v\n", "god", "dog", arrays.Permutation2("god", "dog"))
+	fmt.Printf("arrays.Permutation2   for %q and %q is %v\n", "neo", "one", arrays.Permutation2("neo", "one"))
+	fmt.Printf("arrays.Permutation2   for %q and %q is %v\n", "orange", "egnaso", arrays.Permutation2("orange", "egnaso"))
 }

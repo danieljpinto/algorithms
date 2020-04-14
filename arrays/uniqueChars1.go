@@ -5,6 +5,7 @@ func HasUniqueChars(str string) bool {
 		return false
 	}
 
+	// Consider ASCII
 	charSet := make([]bool, 128)
 
 	for i := 0; i < len(str); i++ {
